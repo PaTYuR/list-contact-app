@@ -199,7 +199,7 @@ const AddContact: FC<IContact> = ({ contact }) => {
         css={[
           styleWrapperParentInput,
           css`
-            @media (max-width: 375px) {
+            @media (max-width: 425px) {
               flex-direction: column;
               row-gap: 1rem;
             }
